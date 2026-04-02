@@ -16,12 +16,11 @@ A minimal LLM-powered coaching app that recommends exercises based on user queri
 ├── app.py                  FastAPI REST server
 ├── App.jsx                 React UI component
 ├── App.css                 Styling
-├── test_app.py             Integration tests
 ├── requirements.txt        Pip dependencies
 └── environment.yml         Conda environment
 ```
 
-**Docker Files**
+**Docker Files (Optional) **
 - `Dockerfile.min` - Production container
 - `docker-compose.min.yml` - Full stack
 
@@ -43,6 +42,11 @@ pip install -r requirements.txt
 ```
 
 ### 2. Setup Database
+
+Before running the database load script, make sure data is in place:
+1. Create `data/` directory if missing: `mkdir -p data`
+2. Copy or move `exercises.csv` into `data/`:
+   `cp path/to/exercises.csv data/exercises.csv`
 
 If `psql` reports `role "postgres" does not exist`, run:
 ```bash
