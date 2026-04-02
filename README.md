@@ -4,6 +4,14 @@ A minimal LLM-powered coaching app that recommends exercises based on user queri
 
 **Stack:** Python (FastAPI) + PostgreSQL + React + Llama LLM
 
+![Search view](screenshots/search-view.png)
+
+![Results view](screenshots/results-view.png)
+
+You can replace with your own names and images.
+
+---
+
 ---
 
 ## Files
@@ -312,7 +320,6 @@ curl http://localhost:8000/health
 curl -X POST http://localhost:8000/recommend \
   -d '{"query":"squat"}'
 ```
-
 ---
 
 ## Docker Deployment
