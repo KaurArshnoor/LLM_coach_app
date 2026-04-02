@@ -8,10 +8,6 @@ A minimal LLM-powered coaching app that recommends exercises based on user queri
 
 ![Results view](screenshots/results-view.png)
 
-You can replace with your own names and images.
-
----
-
 ---
 
 ## Files
